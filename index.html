@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Tracker</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+<body>
+
+    <nav class="menu">
+        <div class="menu-left">CryptoTracker<span class="dot">.</span></div>
+        <div class="menu-right">
+            <div class="right-elements"><img src="" alt=""></div>
+            <div class="right-elements "><span class="material-symbols-outlined">toggle_on</span></div>
+            <div class="right-elements">Home</div>
+            <div class="right-elements">Compare</div>
+            <div class="right-elements">Watchlist</div>
+            <div class="right-elements">Dashboard</div>
+            <div class="hamburgar"><span class="material-symbols-outlined">
+                menu
+                </span></div>
+        </div>
+    </nav>
+
+
+    <div class="container">
+        <div class="filter">
+            <div class="grid" onclick="grid()"><span class="material-symbols-outlined">
+                grid_view
+                </span><span style="margin-left: 10px;">Grid View</span></div>
+            <div class="list" onclick="list()"><span class="material-symbols-outlined">
+                list
+                </span><span style="margin-left: 10px;">List View</span></div>
+        </div>
+
+        
+        
+        <div class="card-container" >
+            <div class="card-wrapper" id="card-container">
+                <!-- <div class="card">
+                    <div class="card-wrapper-inside">
+                    <div class="item-1">
+                        <div class="icon"><img src="https://icons.iconarchive.com/icons/cjdowner/cryptocurrency/256/ICON-icon.png" alt="" ></div>
+                        <div class="details">
+                            <div class="symbol">Symbol</div>
+                            <div class="name">Name</div>
+                        </div>
+                    </div>
+                    <div class="item-2 item">Percentage Change :</div>
+                    <div class="item-3 item">Price : </div>
+                    <div class="item-4 item">Total Volume :</div>
+                    <div class="item-5 item">Market Cap : </div>
+                    </div>
+                </div> -->
+            </div>
+            
+
+            <div class="list-container" id="card-list">
+                <!-- <div class="card-list" >
+                <span class="data"><div class="item-1">
+                    <div class="icon"><img src="https://icons.iconarchive.com/icons/cjdowner/cryptocurrency/256/ICON-icon.png" alt="" ></div>
+                    <div class="details">
+                        <div class="symbol">Symbol</div>
+                        <div class="name">Name</div>
+                    </div>
+                </div></span>
+                <span class="data item-2">Percentage Change :</span>
+                <span class="data">Price :</span>
+                <span class="data">Total Volume :</span>
+                <span class="data">Market Cap :</span>
+                </div>  -->
+            </div>
+        </div>  
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
